@@ -1,0 +1,96 @@
+[
+  {
+    "id": "my-services",
+    "title": "Services",
+    "folders": [
+      {
+        "id": "netflix-movies-latest",
+        "title": "Netflix - Filmer",
+        "description": "Senaste Netflix-filmerna sorterade efter utgivningsdatum.",
+        "sources": [
+          {
+            "type": "mdblist",
+            "url": "https://mdblist.com/lists/snoak/latest-netflix-movies"
+          }
+        ]
+      },
+      {
+        "id": "netflix-shows-latest",
+        "title": "Netflix - Serier",
+        "description": "Senaste Netflix-serierna sorterade efter utgivningsdatum.",
+        "sources": [
+          {
+            "type": "mdblist",
+            "url": "https://mdblist.com/lists/snoak/latest-netflix-shows"
+          }
+        ]
+      },
+      {
+        "id": "disney-movies-latest",
+        "title": "Disney+ - Filmer",
+        "description": "Senaste Disney+-filmerna sorterade efter utgivningsdatum.",
+        "sources": [
+          {
+            "type": "mdblist",
+            "url": "https://mdblist.com/lists/snoak/latest-disney-movies"
+          }
+        ]
+      },
+      {
+        "id": "disney-shows-latest",
+        "title": "Disney+ - Serier",
+        "description": "Senaste Disney+-serierna sorterade efter utgivningsdatum.",
+        "sources": [
+          {
+            "type": "mdblist",
+            "url": "https://mdblist.com/lists/snoak/latest-disney-shows"
+          }
+        ]
+      },
+      {
+        "id": "prime-movies-latest",
+        "title": "Prime Video - Filmer",
+        "description": "Senaste Amazon Prime-filmerna sorterade efter utgivningsdatum.",
+        "sources": [
+          {
+            "type": "mdblist",
+            "url": "https://mdblist.com/lists/snoak/latest-amazon-prime-movies"
+          }
+        ]
+      },
+      {
+        "id": "prime-shows-latest",
+        "title": "Prime Video - Serier",
+        "description": "Senaste Amazon Prime-serierna sorterade efter utgivningsdatum.",
+        "sources": [
+          {
+            "type": "mdblist",
+            "url": "https://mdblist.com/lists/snoak/latest-amazon-prime-shows"
+          }
+        ]
+      },
+      {
+        "id": "hbo-movies-latest",
+        "title": "HBO Max - Filmer",
+        "description": "Senaste HBO Max-filmerna sorterade efter utgivningsdatum.",
+        "sources": [
+          {
+            "type": "mdblist",
+            "url": "https://mdblist.com/lists/snoak/latest-hbo-max-movies"
+          }
+        ]
+      },
+      {
+        "id": "hbo-shows-latest",
+        "title": "HBO Max - Serier",
+        "description": "Senaste HBO Max-serierna sorterade efter utgivningsdatum.",
+        "sources": [
+          {
+            "type": "mdblist",
+            "url": "https://mdblist.com/lists/snoak/latest-hbo-max-shows"
+          }
+        ]
+      }
+    ]
+  }
+]
