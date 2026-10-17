@@ -1,93 +1,133 @@
 [
   {
-    "id": "my-services",
+    "id": "services",
     "title": "Services",
     "folders": [
       {
-        "id": "netflix-movies-latest",
+        "id": "netflix-movies",
         "title": "Netflix - Filmer",
-        "description": "Senaste Netflix-filmerna sorterade efter utgivningsdatum.",
+        "description": "Nyaste Netflix-filmerna",
         "sources": [
           {
-            "type": "mdblist",
-            "url": "https://mdblist.com/lists/snoak/latest-netflix-movies"
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withWatchProviders": "8"
+            }
           }
         ]
       },
       {
-        "id": "netflix-shows-latest",
+        "id": "netflix-shows",
         "title": "Netflix - Serier",
-        "description": "Senaste Netflix-serierna sorterade efter utgivningsdatum.",
+        "description": "Nyaste Netflix-serierna",
         "sources": [
           {
-            "type": "mdblist",
-            "url": "https://mdblist.com/lists/snoak/latest-netflix-shows"
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "8"
+            }
           }
         ]
       },
       {
-        "id": "disney-movies-latest",
+        "id": "disney-movies",
         "title": "Disney+ - Filmer",
-        "description": "Senaste Disney+-filmerna sorterade efter utgivningsdatum.",
+        "description": "Nyaste Disney+-filmerna",
         "sources": [
           {
-            "type": "mdblist",
-            "url": "https://mdblist.com/lists/snoak/latest-disney-movies"
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withWatchProviders": "337"
+            }
           }
         ]
       },
       {
-        "id": "disney-shows-latest",
+        "id": "disney-shows",
         "title": "Disney+ - Serier",
-        "description": "Senaste Disney+-serierna sorterade efter utgivningsdatum.",
+        "description": "Nyaste Disney+-serierna",
         "sources": [
           {
-            "type": "mdblist",
-            "url": "https://mdblist.com/lists/snoak/latest-disney-shows"
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "337"
+            }
           }
         ]
       },
       {
-        "id": "prime-movies-latest",
+        "id": "prime-movies",
         "title": "Prime Video - Filmer",
-        "description": "Senaste Amazon Prime-filmerna sorterade efter utgivningsdatum.",
+        "description": "Nyaste Amazon Prime-filmerna",
         "sources": [
           {
-            "type": "mdblist",
-            "url": "https://mdblist.com/lists/snoak/latest-amazon-prime-movies"
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withWatchProviders": "119"
+            }
           }
         ]
       },
       {
-        "id": "prime-shows-latest",
+        "id": "prime-shows",
         "title": "Prime Video - Serier",
-        "description": "Senaste Amazon Prime-serierna sorterade efter utgivningsdatum.",
+        "description": "Nyaste Amazon Prime-serierna",
         "sources": [
           {
-            "type": "mdblist",
-            "url": "https://mdblist.com/lists/snoak/latest-amazon-prime-shows"
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "119"
+            }
           }
         ]
       },
       {
-        "id": "hbo-movies-latest",
+        "id": "hbo-movies",
         "title": "HBO Max - Filmer",
-        "description": "Senaste HBO Max-filmerna sorterade efter utgivningsdatum.",
+        "description": "Nyaste HBO Max-filmerna",
         "sources": [
           {
-            "type": "mdblist",
-            "url": "https://mdblist.com/lists/snoak/latest-hbo-max-movies"
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withWatchProviders": "1899"
+            }
           }
         ]
       },
       {
-        "id": "hbo-shows-latest",
+        "id": "hbo-shows",
         "title": "HBO Max - Serier",
-        "description": "Senaste HBO Max-serierna sorterade efter utgivningsdatum.",
+        "description": "Nyaste HBO Max-serierna",
         "sources": [
           {
-            "type": "mdblist",
-            "url": "https://mdblist.com/lists/snoak/latest-hbo-max-shows"
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "1899"
+            }
           }
         ]
       }
